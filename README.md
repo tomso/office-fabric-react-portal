@@ -1,28 +1,26 @@
-# office-fabric-react-portal
-Demo repo for a Office36 fabric react portal
+## claim-survey
 
-## Getting startet
-1. install docker
+This is where you include your WebPart documentation.
 
-2. `docker-compose build`
-3. `docker-compose up`
+### Building the code
 
-Kill a docker image:
-docker ps -a (show all)
-docker ps -aq (all quiet)
-docker ps -aqf (all quiet filter)
+```bash
+git clone the repo
+npm i
+npm i -g gulp
+gulp
+```
 
-docker kill $(docker ps -aqf "name=react*")
-#docker kill all docker images that starts with a name=react
+This package produces the following:
 
+* lib/* - intermediate-stage commonjs build artifacts
+* dist/* - the bundled script, along with other resources
+* deploy/* - all resources which should be uploaded to a CDN.
 
-# CRUDOS - All code are based on these:
+### Build options
 
-react redux typescript:
-https://github.com/rokoroku/react-redux-typescript-boilerplate
-
-office ui fabric:
-https://github.com/guzmonne/office-ui-layout
-
-Docker setup:
-https://github.com/ken-2scientists/react-docker-starter
+gulp clean - TODO
+gulp test - TODO
+gulp serve - TODO
+gulp bundle - TODO
+gulp package-solution - TODO

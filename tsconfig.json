@@ -1,27 +1,16 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
     "target": "es5",
-    "jsx": "react",
+    "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
     "experimentalDecorators": true,
-    "declaration": false,
-    "noImplicitAny": false,
-    "noImplicitReturns": false,
-    "removeComments": true,
-    "strictNullChecks": false,
-    "outDir": "build",
-    "lib": [
-      "es6",
-      "es7",
-      "dom"
+    "types": [
+      "es6-promise",
+      "es6-collections",
+      "webpack-env"
     ]
-  },
-  "exclude": [
-    "dist",
-    "build",
-    "node_modules"
-  ]
+  }
 }

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "claim-survey-client-side-solution",
+    "id": "c88da550-72b8-4818-b7c4-ba9df72afe48",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/claim-survey.sppkg"
+  }
+}
